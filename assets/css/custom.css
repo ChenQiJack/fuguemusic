@@ -1,0 +1,109 @@
+#main>section.two {
+	background-image: url("../../images/bg1.png");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left center;
+	min-height: 500px;
+	letter-spacing: 2px;
+}
+
+#main>section.three {
+}
+
+#main>section.four {
+}
+
+.intro-div {
+	padding-top: 5%;
+	padding-left: 10%;
+}
+
+.title {
+	color: #366652 !important;
+	font-weight: bold;
+}
+
+.subtitle {
+	color: #96B482 !important;
+}
+
+.activity_card {
+	background: #fff;
+    margin: 0;
+    padding: 1rem;
+	border: #eeeeee 1px solid;
+}
+
+.activity_title {
+	font-size: 1rem !important;
+	text-align: left;
+}
+
+.activity_content {
+	font-size: 0.8rem !important;
+	text-align: left;
+	color: #B5B5B5;
+}
+
+.activity_tag {
+	font-size: 0.8rem !important;
+	border: #E69C37 1px solid;
+	color: #E69C37;
+	padding: 5px 2px;
+	display: table;
+	font-weight: bold;
+}
+
+.activity_money {
+	color: #DD747D;
+	font-weight: bold;
+}
+
+.activity_dollar {
+	font-size: 0.6rem !important;
+}
+
+.pill-link {
+	display: block;
+    padding: 0.5rem 1rem;
+	border: 0;
+	text-decoration: none;
+	color: #333333;
+	border-radius: 4px;
+}
+
+.pill-link:hover, .pill-link:active, .pill-link:focus {
+	border: 0;
+	text-decoration: none;
+	color: #333333;
+}
+
+.pill-link.active {
+	background-color: #4FAC76;
+	color: #ffffff;
+}
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+ }
+
+.good-div {
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+@media screen and (max-width: 736px) {
+	#main>section.two {
+		background-image: url("../../images/mobile_bg1.png");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: left center;
+		min-height: 650px;
+	}
+
+	.good-div {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

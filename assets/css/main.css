@@ -2051,11 +2051,12 @@ button:active,
 
 #footer {
 	margin-left: 375px;
-	text-align: center;
+	text-align: right;
 	background-color: #dce3e2;
-	padding: 3em 0 4em 0;
+	padding: 2em 2rem 2em 0;
 	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 	font-size: 0.8em;
+	color: #333333;
 }
 
 #footer .copyright {
@@ -2077,6 +2078,11 @@ button:active,
 	margin-left: 0;
 }
 
+#footer .copyright li a {
+	color: #333333 !important;
+	text-decoration: none;
+	border: 0;
+}
 
 /* Main */
 
@@ -2088,7 +2094,7 @@ button:active,
 	margin: 0;
 	overflow: hidden;
 	padding: 4em 0;
-	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+	/* box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025); */
 	text-align: center;
 	background-image: url("images/overlay.png");
 }
@@ -2134,17 +2140,16 @@ button:active,
  */
 
 #main>section.two {
-	background-color: #f5fafa;
+	background-color: white;
 }
 
 #main>section.three {
-	background-color: #ecf1f1;
+	background-color: white;
 }
 
 #main>section.four {
-	background-color: #e8edec;
+	background-color: #F9FFF8;
 }
-
 
 /* Wide */
 
