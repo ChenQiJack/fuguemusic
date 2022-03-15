@@ -159,3 +159,8 @@
 	margin-top: auto; 
 	margin-bottom: auto;
 }
+
+.no-underline, .no-underline:hover, .no-underline:focus, .no-underline:active {
+	border: 0 !important;
+	text-decoration: none;
+}
