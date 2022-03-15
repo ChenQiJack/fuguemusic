@@ -344,7 +344,7 @@ br.clear {
 
 @media screen and (min-width: 961px) and (max-width: 1620px) {
 	.container {
-		width: 960px;
+		width: 80px;
 	}
 }
 
@@ -2461,3 +2461,4 @@ button:active,
 		margin-top: 0;
 	}
 }
+

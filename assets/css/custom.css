@@ -133,9 +133,26 @@
 
 .second-title {
 	color: white;
-    margin-top: 100px;
+    margin-top: 130px;
     text-align: left;
     margin-left: 50px;
+    letter-spacing: 3px;
+}
+
+.business-intro-title {
+	color: black;
+    text-align: left;
+	margin-top: 20px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+}
+
+.business-intro {
+	text-align: left; 
+	margin-top: 20px; 
+	font-size: 16px; 
+	margin-left: 30px;
+	line-height: 25px;
 }
 
 .col-middle {
