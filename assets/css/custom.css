@@ -1,3 +1,23 @@
+.mt-15 {
+	margin-top: 15px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mb-15 {
+	margin-bottom: 15px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
 #main>section.two {
 	background-image: url("../../images/bg1.png");
 	background-repeat: no-repeat;
@@ -5,12 +25,6 @@
     background-position: left center;
 	min-height: 500px;
 	letter-spacing: 2px;
-}
-
-#main>section.three {
-}
-
-#main>section.four {
 }
 
 .intro-div {
@@ -106,4 +120,25 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+}
+
+.founding-banner {
+	background-image: url("../../images/banner_founding.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left center;
+	min-height: 200px;
+	letter-spacing: 2px;
+}
+
+.second-title {
+	color: white;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.col-middle {
+	margin-top: auto; 
+	margin-bottom: auto;
 }
