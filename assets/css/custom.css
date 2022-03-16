@@ -164,3 +164,32 @@
 	border: 0 !important;
 	text-decoration: none;
 }
+
+.article_card {
+	/* background: #fff; */
+    margin: 0;
+    padding: 1rem;
+	/* border: #eeeeee 1px solid; */
+}
+
+.article_title {
+	font-size: 1rem !important;
+	text-align: left;
+}
+
+.article_content {
+	font-size: 0.8rem !important;
+	text-align: left;
+	color: #B5B5B5;
+}
+
+.article_apply_underline {
+	width: 25px;
+    border-bottom: 2px solid #B5B5B5;
+}
+
+.article_apply {
+	color: #345A90;
+	margin-left: auto;
+	margin-bottom: -5px;	
+}
