@@ -120,6 +120,14 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+
+	.member-img {
+		padding: 20px 10%;
+	}
+
+	.member-good {
+		margin-top: 15px;
+	}
 }
 
 .founding-banner {
