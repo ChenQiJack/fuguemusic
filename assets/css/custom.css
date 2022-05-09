@@ -87,6 +87,12 @@ video {
 	font-family: 'huninn', 'Microsoft JhengHei', 'Source Sans Pro', sans-serif !important;
 }
 
+.fa,
+.far,
+.fas {
+	font-family: 'Font Awesome 5 Free' !important;
+}
+
 .mt-15 {
 	margin-top: 15px;
 }
@@ -138,14 +144,22 @@ video {
 }
 
 .activity_title {
-	font-size: 1rem !important;
+	color: #366652 !important;
+	font-size: 1.2rem !important;
 	text-align: left;
 }
 
 .activity_content {
-	font-size: 0.8rem !important;
+	font-size: 1rem !important;
 	text-align: left;
-	color: #b5b5b5;
+	color: #7a7a7a;
+	display: block;
+}
+
+.activity_content > .fa,
+.fas,
+.far {
+	color: #8eb47d;
 }
 
 .activity_tag {
@@ -166,25 +180,29 @@ video {
 	font-size: 0.6rem !important;
 }
 
-.pill-link {
-	display: block;
-	padding: 0.5rem 1rem;
-	border: 0;
-	text-decoration: none;
-	color: #333333;
-	border-radius: 4px;
+ul.nav-pills li {
+	padding-left: 2rem !important;
 }
 
-.pill-link:hover,
-.pill-link:active,
-.pill-link:focus {
+.pill-link {
+	display: block;
+	padding: 0.5rem 2rem;
 	border: 0;
 	text-decoration: none;
-	color: #333333;
+	background-color: #276750;
+	color: #ffffff;
+	border-radius: 30px;
+}
+
+.nav-item:hover .pill-link {
+	border: 0;
+	text-decoration: none;
+	background-color: #8eb47d;
+	color: #ffffff;
 }
 
 .pill-link.active {
-	background-color: #4fac76;
+	background-color: #8eb47d;
 	color: #ffffff;
 }
 
