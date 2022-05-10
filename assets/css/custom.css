@@ -136,7 +136,7 @@ video {
 }
 
 .title {
-	color: #366652 !important;
+	color: #276750 !important;
 	font-weight: bold;
 }
 
@@ -152,7 +152,7 @@ video {
 }
 
 .activity_title {
-	color: #366652 !important;
+	color: #276750 !important;
 	font-size: 1.2rem !important;
 	text-align: left;
 }
@@ -357,4 +357,8 @@ ul.nav-pills li {
 
 .member-modal .icons a {
 	color: #41484c !important;
+}
+
+.white {
+	color: #ffffff !important;
 }
