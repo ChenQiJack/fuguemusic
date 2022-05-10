@@ -315,14 +315,15 @@ ul.nav-pills li {
 }
 
 .article_title {
-	font-size: 1rem !important;
+	color: #276750;
+	font-size: 1.4rem !important;
 	text-align: left;
 }
 
 .article_content {
-	font-size: 0.8rem !important;
+	font-size: 1rem !important;
 	text-align: left;
-	color: #b5b5b5;
+	color: #8eb47d;
 }
 
 .article_apply_underline {
