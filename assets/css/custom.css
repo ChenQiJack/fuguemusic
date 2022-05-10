@@ -118,7 +118,7 @@ video {
 }
 
 #header .icons a:hover {
-	color: #41484c !important;
+	color: #d5cd61 !important;
 }
 
 #main > section.two {
@@ -190,6 +190,12 @@ video {
 
 ul.nav-pills li {
 	padding-left: 2rem !important;
+}
+
+@media screen and (max-width: 736px) {
+	ul.nav-pills li {
+		padding-left: 0.5rem !important;
+	}
 }
 
 .pill-link {
@@ -340,6 +346,10 @@ ul.nav-pills li {
 .member-img img {
 	max-width: 180px;
 	margin: 0 auto;
+}
+
+.member-img > a:hover {
+	text-decoration: none;
 }
 
 .member-modal img {
