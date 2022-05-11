@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
 	font-family: 'huninn';
 	src: url('../webfonts/huninn.ttf') format('truetype');
-}
-
+} */
+@import url('@fontsource/kiwi-maru');
 html,
 body,
 div,
@@ -84,7 +84,7 @@ time,
 mark,
 audio,
 video {
-	font-family: 'huninn', 'Microsoft JhengHei', 'Source Sans Pro', sans-serif !important;
+	font-family: 'Kiwi Maru', 'Microsoft JhengHei', 'Source Sans Pro', sans-serif !important;
 }
 
 .fa,
